@@ -10,3 +10,9 @@ img{
     display: block;
     border-radius: 20px;
 }
+
+footer{
+    padding: 20px;
+    text-align: center;
+    background-color: aquamarine;
+}
