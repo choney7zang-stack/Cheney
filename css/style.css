@@ -18,3 +18,8 @@ footer{
     background-color: black;
     height: 40px;
 }
+
+ul{
+    display: flex;
+    
+}
