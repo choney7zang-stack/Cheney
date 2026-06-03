@@ -6,7 +6,7 @@ h1{
 img{
     height: 300px;
     width: 300px;
-    margin: 20px auto;
+    margin: 0 auto;
     display: block;
     border-radius: 20px;
 }
