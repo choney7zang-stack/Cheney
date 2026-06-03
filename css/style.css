@@ -52,9 +52,10 @@ ul li a:hover{
     justify-content: space-between;
     align-items: center;
     padding: 80px 10%;
-    min-height: 90vh;
+    min-height: 300px;
     background: linear-gradient(135deg, #f8fbff, #eaf4ff);
     gap: 50px;
+    margin-bottom: 20px;
 }
 
 .hero-content {
