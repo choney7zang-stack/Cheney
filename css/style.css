@@ -24,7 +24,9 @@ header{
    background-color: aquamarine; 
    display: flex;
    justify-content:space-between;
-   align-items:center
+   align-items:center;
+   height: 30px;
+
 }
 
 ul{
