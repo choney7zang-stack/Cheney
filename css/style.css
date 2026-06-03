@@ -16,7 +16,7 @@ footer{
     text-align: center;
     color: white;
     background-color: black;
-    height: 30px;
+    height: 20px;
     margin-top: 20px;
 }
 
@@ -26,6 +26,7 @@ header{
    justify-content:space-between;
    align-items:center;
    height: 30px;
+   padding: 20px;
 
 }
 
@@ -44,3 +45,75 @@ ul li a{
 ul li a:hover{
      color: #f1c40f;
 }
+
+/* HERO SECTION */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 10%;
+    min-height: 90vh;
+    background: linear-gradient(135deg, #f8fbff, #eaf4ff);
+    gap: 50px;
+}
+
+.hero-content {
+    flex: 1;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    color: #1e3a8a;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.btn-primary,
+.btn-secondary {
+    text-decoration: none;
+    padding: 12px 28px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.btn-primary {
+    background: #2563eb;
+    color: white;
+}
+
+.btn-primary:hover {
+    background: #1d4ed8;
+}
+
+.btn-secondary {
+    border: 2px solid #2563eb;
+    color: #2563eb;
+}
+
+.btn-secondary:hover {
+    background: #2563eb;
+    color: white;
+}
+
+.hero-image {
+    flex: 1;
+    text-align: center;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 500px;
+}
+
